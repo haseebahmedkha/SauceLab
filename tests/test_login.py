@@ -5,12 +5,12 @@ from pages.inventory_page import InventoryPage
 from pages.login_page import LoginPage
 from utils.config import BASE_URL, VALID_USER, VALID_PASSWORD
 
-class Test_loginpage:
 
+@pytest.mark.usefixtures("setup")
+class TestLoginPage:
 
 
     @pytest.mark.smoke
-    @pytest.mark.usefixtures("setup")
     def test_valid_login(self,setup):
         login = LoginPage(setup)
         inventory = InventoryPage(setup)
