@@ -1,21 +1,26 @@
 import pytest
 from playwright.sync_api import sync_playwright
 
+from pages.inventory_page import InventoryPage
 from pages.login_page import LoginPage
 from utils.config import BASE_URL, VALID_USER, VALID_PASSWORD
 
 class Test_loginpage:
 
-    def test_valid_login(self):
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False, slow_mo=500)
-            page = browser.new_page()
-            login = LoginPage(page)
-            login.goto(BASE_URL)
-            login.login(VALID_USER, VALID_PASSWORD)
-            assert "inventory" in page.url
-            page.close()
-            browser.close()
+
+
+    @pytest.mark.smoke
+    @pytest.mark.usefixtures("setup")
+    def test_valid_login(self,setup):
+        login = LoginPage(setup)
+        inventory = InventoryPage(setup)
+        login.goto(BASE_URL)
+        login.login(VALID_USER, VALID_PASSWORD)
+        # assert "inventory" in setup.url
+        assert inventory.is_inventory_loaded()
+        inventory.logout()
+        assert "saucedemo" in setup.url
+
 
 
 
