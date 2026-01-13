@@ -10,6 +10,7 @@ from utils.config import BASE_URL, VALID_USER, VALID_PASSWORD
 @pytest.mark.usefixtures("setup")
 class TestCheckout:
 
+    @pytest.mark.regression
     def test_complete_checkout_flow(self,setup):
         login = LoginPage(setup)
         cart = CartPage(setup)
@@ -26,7 +27,7 @@ class TestCheckout:
 
         checkout.enter_userinfo("Haseeb","Khan","12345")
         # setup.pause()
-        # checkout.continue_checkout()
+        checkout.continue_checkout()
         checkout.finish_checkout()
         assert checkout.is_order_completed()
 
