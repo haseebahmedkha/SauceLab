@@ -1,0 +1,9 @@
+2026-01-14 23:27:33,011 - INFO - ***** Starting test_valid_login *****
+2026-01-14 23:27:40,929 - INFO - ***** Login attempted *****
+2026-01-14 23:27:42,174 - INFO - ***** test_valid_login completed *****
+2026-01-14 23:27:43,760 - INFO - ***** Starting test_valid_login *****
+2026-01-14 23:27:51,732 - INFO - ***** Login attempted *****
+2026-01-14 23:27:53,019 - INFO - ***** test_valid_login completed *****
+2026-01-14 23:27:54,657 - INFO - ***** Starting test_valid_login *****
+2026-01-14 23:28:18,502 - INFO - ***** Login attempted *****
+2026-01-14 23:28:19,858 - INFO - ***** test_valid_login completed *****

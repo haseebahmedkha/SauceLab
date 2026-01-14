@@ -1,0 +1,22 @@
+2026-01-14 22:15:19,102 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-14 22:15:24,619 - INFO - ***** Navigated to BASE_URL *****
+2026-01-14 22:15:26,438 - INFO - ***** Logged in with valid credentials *****
+2026-01-14 22:15:27,053 - INFO - ***** Added first item to cart *****
+2026-01-14 22:15:27,671 - INFO - ***** Opened cart *****
+2026-01-14 22:15:27,746 - INFO - ***** Verified item in cart *****
+2026-01-14 22:15:28,305 - INFO - ***** Started checkout *****
+2026-01-14 22:15:30,030 - INFO - ***** Entered user info *****
+2026-01-14 22:15:30,665 - INFO - ***** Continued checkout *****
+2026-01-14 22:15:31,261 - INFO - ***** Finished checkout *****
+2026-01-14 22:15:31,283 - INFO - ***** Order completed successfully *****
+2026-01-14 22:15:32,916 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-14 22:15:38,055 - INFO - ***** Navigated to BASE_URL *****
+2026-01-14 22:15:40,024 - INFO - ***** Logged in with valid credentials *****
+2026-01-14 22:15:40,635 - INFO - ***** Added first item to cart *****
+2026-01-14 22:15:41,271 - INFO - ***** Opened cart *****
+2026-01-14 22:15:41,395 - INFO - ***** Verified item in cart *****
+2026-01-14 22:15:42,004 - INFO - ***** Started checkout *****
+2026-01-14 22:15:43,704 - INFO - ***** Entered user info *****
+2026-01-14 22:15:44,350 - INFO - ***** Continued checkout *****
+2026-01-14 22:15:44,951 - INFO - ***** Finished checkout *****
+2026-01-14 22:15:44,973 - INFO - ***** Order completed successfully *****

@@ -4,13 +4,18 @@ import os  # For interacting with the operating system (like creating directorie
 from datetime import datetime  # For working with current date and time
 import time  # Imported but not used in this code (can be removed if not needed)
 
-
+#  ================================
+# LogGen class to generate and configure a logger
+#  ================================
 class LogGen:
     """
     LogGen class to generate and configure a logger for automation scripts.
     The logger writes log messages to a timestamped log file inside a 'logs' folder.
     """
 
+    # ================================
+    # Static method to create and return a logger instance
+    # ================================
     @staticmethod
     def loggen():
         """
