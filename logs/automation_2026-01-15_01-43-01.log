@@ -1,0 +1,11 @@
+2026-01-15 01:43:01,385 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-15 01:43:04,414 - INFO - ***** Navigated to BASE_URL *****
+2026-01-15 01:43:06,133 - INFO - ***** Logged in with valid credentials *****
+2026-01-15 01:43:06,678 - INFO - ***** Added first item to cart *****
+2026-01-15 01:43:07,244 - INFO - ***** Opened cart *****
+2026-01-15 01:43:07,284 - INFO - ***** Verified item in cart *****
+2026-01-15 01:43:07,827 - INFO - ***** Started checkout *****
+2026-01-15 01:43:09,413 - INFO - ***** Entered user info *****
+2026-01-15 01:43:10,013 - INFO - ***** Continued checkout *****
+2026-01-15 01:43:10,612 - INFO - ***** Finished checkout *****
+2026-01-15 01:43:10,635 - INFO - ***** Order completed successfully *****

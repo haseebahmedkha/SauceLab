@@ -30,3 +30,8 @@ class CheckoutPage(BasePage):
     #  Verification Methods
     def is_order_completed(self) -> bool:
         return self.is_visible(self.success_message)
+
+    #  -----------------------
+    #  Verification Methods
+    def return_error_message(self,xpath)-> str:
+        return self.page.locator(xpath).inner_text()
