@@ -18,4 +18,11 @@ negative_login_data = [("invalid_user", "wrong_password"),
                        ("Haseeb", "12345"),
                        ("",""),("standard_user",""),("","secret")]
 
+negative_checkout_data = [("","doe","54321","Error: First Name is required"),
+                          ("haseeb","","12345","Error: Last Name is required"),
+                          ("alice","smith","","Error: Postal Code is required"),
+                          ("alice","smith","","Error: Postal Code is required"),
+                          ("","", "","Error: First Name is require")]
+
+
 
