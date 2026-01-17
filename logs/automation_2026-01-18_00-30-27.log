@@ -1,0 +1,9 @@
+2026-01-18 00:30:27,271 - INFO - ***** Starting test_checkout_with_short_zip *****
+2026-01-18 00:30:36,603 - INFO - ***** Navigated to BASE_URL *****
+2026-01-18 00:30:38,283 - INFO - ***** Logged in with valid credentials *****
+2026-01-18 00:30:38,847 - INFO - ***** Added first item to cart *****
+2026-01-18 00:30:39,417 - INFO - ***** Opened cart *****
+2026-01-18 00:30:39,483 - INFO - ***** Verified item in cart *****
+2026-01-18 00:30:40,014 - INFO - ***** Started checkout *****
+2026-01-18 00:30:41,615 - INFO - ***** Entered user info with short postal code *****
+2026-01-18 00:30:42,181 - INFO - ***** Continued checkout *****

@@ -1,0 +1,28 @@
+2026-01-18 00:46:45,047 - INFO - ***** Starting test_checkout_with_invalid_zip_letter *****
+2026-01-18 00:46:51,474 - INFO - ***** Navigated to BASE_URL *****
+2026-01-18 00:46:53,142 - INFO - ***** Logged in with valid credentials *****
+2026-01-18 00:46:53,724 - INFO - ***** Added first item to cart *****
+2026-01-18 00:46:54,293 - INFO - ***** Opened cart *****
+2026-01-18 00:46:54,343 - INFO - ***** Verified item in cart *****
+2026-01-18 00:46:54,872 - INFO - ***** Started checkout *****
+2026-01-18 00:46:56,523 - INFO - ***** Entered user info with invalid postal code *****
+2026-01-18 00:46:57,089 - INFO - ***** Continued checkout *****
+2026-01-18 00:46:58,972 - INFO - ***** Starting test_checkout_with_short_zip *****
+2026-01-18 00:47:03,179 - INFO - ***** Navigated to BASE_URL *****
+2026-01-18 00:47:04,900 - INFO - ***** Logged in with valid credentials *****
+2026-01-18 00:47:05,498 - INFO - ***** Added first item to cart *****
+2026-01-18 00:47:06,115 - INFO - ***** Opened cart *****
+2026-01-18 00:47:06,167 - INFO - ***** Verified item in cart *****
+2026-01-18 00:47:06,709 - INFO - ***** Started checkout *****
+2026-01-18 00:47:08,306 - INFO - ***** Entered user info with short postal code *****
+2026-01-18 00:47:08,861 - INFO - ***** Continued checkout *****
+2026-01-18 00:47:10,970 - INFO - ***** Starting test_checkout_with_single_char_firstname *****
+2026-01-18 00:47:20,342 - INFO - ***** Navigated to BASE_URL *****
+2026-01-18 00:47:22,026 - INFO - ***** Logged in with valid credentials *****
+2026-01-18 00:47:22,576 - INFO - ***** Added first item to cart *****
+2026-01-18 00:47:23,141 - INFO - ***** Opened cart *****
+2026-01-18 00:47:23,189 - INFO - ***** Verified item in cart *****
+2026-01-18 00:47:23,728 - INFO - ***** Started checkout *****
+2026-01-18 00:47:25,344 - INFO - ***** Entered user info with single character first name *****
+2026-01-18 00:47:25,908 - INFO - ***** Continued checkout *****
+2026-01-18 00:47:25,909 - INFO - ***** Successfully proceeded to overview page with single character first name *****

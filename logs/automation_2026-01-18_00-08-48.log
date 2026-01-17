@@ -1,0 +1,9 @@
+2026-01-18 00:08:48,232 - INFO - ***** Starting test_checkout_with_invalid_zip_letter *****
+2026-01-18 00:08:53,899 - INFO - ***** Navigated to BASE_URL *****
+2026-01-18 00:08:55,784 - INFO - ***** Logged in with valid credentials *****
+2026-01-18 00:08:56,372 - INFO - ***** Added first item to cart *****
+2026-01-18 00:08:56,961 - INFO - ***** Opened cart *****
+2026-01-18 00:08:57,013 - INFO - ***** Verified item in cart *****
+2026-01-18 00:08:57,571 - INFO - ***** Started checkout *****
+2026-01-18 00:08:59,276 - INFO - ***** Entered user info with invalid postal code *****
+2026-01-18 00:08:59,949 - INFO - ***** Continued checkout *****

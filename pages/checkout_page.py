@@ -35,3 +35,13 @@ class CheckoutPage(BasePage):
     #  Verification Methods
     def return_error_message(self,xpath)-> str:
         return self.page.locator(xpath).inner_text()
+
+    #  -----------------------
+    #  Verification Methods
+    def is_error_displayed(self,xpath)-> str:
+        return self.page.locator(xpath).is_visible()
+
+    #  -----------------------
+    #  Verification Methods
+    def is_step_two_displayed(self) -> bool:
+        return "checkout-step-two" in self.page.url
