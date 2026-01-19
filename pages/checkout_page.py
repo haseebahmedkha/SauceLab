@@ -8,6 +8,9 @@ class CheckoutPage(BasePage):
     continue_button = "#continue"
     finish_button = "#finish"
     success_message = ".complete-header"
+    summary_info = ".summary_info"
+    cancel_button = "#cancel"
+
 
     #  -----------------------
     #  Page Actions
@@ -45,3 +48,9 @@ class CheckoutPage(BasePage):
     #  Verification Methods
     def is_step_two_displayed(self) -> bool:
         return "checkout-step-two" in self.page.url
+
+    def is_order_summary_displayed(self) -> bool:
+        return self.is_visible(self.summary_info)
+
+    def cancel_checkout(self):
+        self.page.locator(self.cancel_button).click()

@@ -1,0 +1,9 @@
+2026-01-20 00:35:33,251 - INFO - ***** Starting test_cancel_checkout *****
+2026-01-20 00:35:39,094 - INFO - Navigated to BASE_URL
+2026-01-20 00:35:40,990 - INFO - Logged in with valid credentials
+2026-01-20 00:35:41,557 - INFO - Added first item to cart
+2026-01-20 00:35:42,109 - INFO - Opened cart
+2026-01-20 00:35:42,674 - INFO - Started checkout
+2026-01-20 00:35:44,273 - INFO - Entered user info
+2026-01-20 00:35:44,823 - INFO - Cancelled checkout
+2026-01-20 00:35:44,823 - INFO - Returned to cart page successfully

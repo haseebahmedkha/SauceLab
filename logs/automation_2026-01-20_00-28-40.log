@@ -1,0 +1,35 @@
+2026-01-20 00:28:40,314 - INFO - ***** Starting test_add_single_item_to_cart *****
+2026-01-20 00:28:44,764 - INFO - Navigated to BASE_URL
+2026-01-20 00:28:46,443 - INFO - Logged in with valid credentials
+2026-01-20 00:28:47,011 - INFO - Added first item to cart
+2026-01-20 00:28:47,023 - INFO - Cart count is correct
+2026-01-20 00:28:48,732 - INFO - ***** Starting test_multiple_item_to_cart *****
+2026-01-20 00:28:54,520 - INFO - Navigated to BASE_URL
+2026-01-20 00:28:56,219 - INFO - Logged in with valid credentials
+2026-01-20 00:28:57,884 - INFO - Added items to cart
+2026-01-20 00:28:57,896 - INFO - Cart count is correct
+2026-01-20 00:28:59,496 - INFO - ***** Starting test_remove_item_from_cart *****
+2026-01-20 00:29:24,207 - INFO - Navigated to BASE_URL
+2026-01-20 00:29:25,851 - INFO - Logged in with valid credentials
+2026-01-20 00:29:26,951 - INFO - Added items to cart
+2026-01-20 00:29:26,963 - INFO - Cart count is correct
+2026-01-20 00:29:27,504 - INFO - Removed first item from cart
+2026-01-20 00:29:27,514 - INFO - Cart count after removal is correct
+2026-01-20 00:29:29,061 - INFO - ***** Starting test_complete_checkout_flow *****
+2026-01-20 00:29:50,047 - INFO - Navigated to BASE_URL
+2026-01-20 00:29:51,743 - INFO - Logged in with valid credentials
+2026-01-20 00:29:52,293 - INFO - Added first item to cart
+2026-01-20 00:29:52,843 - INFO - Opened cart
+2026-01-20 00:29:53,410 - INFO - Started checkout
+2026-01-20 00:29:55,006 - INFO - Entered user info
+2026-01-20 00:29:55,584 - INFO - Continued checkout
+2026-01-20 00:29:56,157 - INFO - Finished checkout
+2026-01-20 00:29:56,171 - INFO - Order completed successfully
+2026-01-20 00:29:57,623 - INFO - ***** Starting test_cancel_checkout *****
+2026-01-20 00:30:27,821 - INFO - Navigated to BASE_URL
+2026-01-20 00:30:29,486 - INFO - Logged in with valid credentials
+2026-01-20 00:30:30,049 - INFO - Added first item to cart
+2026-01-20 00:30:30,618 - INFO - Opened cart
+2026-01-20 00:30:31,202 - INFO - Started checkout
+2026-01-20 00:30:32,801 - INFO - Entered user info
+2026-01-20 00:30:33,383 - INFO - Cancelled checkout

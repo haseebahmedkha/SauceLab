@@ -1,0 +1,26 @@
+2026-01-20 00:37:28,377 - INFO - ***** Starting test_remove_item_from_cart *****
+2026-01-20 00:37:32,743 - INFO - Navigated to BASE_URL
+2026-01-20 00:37:34,413 - INFO - Logged in with valid credentials
+2026-01-20 00:37:35,556 - INFO - Added items to cart
+2026-01-20 00:37:35,565 - INFO - Cart count is correct
+2026-01-20 00:37:36,106 - INFO - Removed first item from cart
+2026-01-20 00:37:36,114 - INFO - Cart count after removal is correct
+2026-01-20 00:37:37,684 - INFO - ***** Starting test_complete_checkout_flow *****
+2026-01-20 00:37:42,431 - INFO - Navigated to BASE_URL
+2026-01-20 00:37:44,129 - INFO - Logged in with valid credentials
+2026-01-20 00:37:44,675 - INFO - Added first item to cart
+2026-01-20 00:37:45,235 - INFO - Opened cart
+2026-01-20 00:37:45,779 - INFO - Started checkout
+2026-01-20 00:37:47,375 - INFO - Entered user info
+2026-01-20 00:37:47,938 - INFO - Continued checkout
+2026-01-20 00:37:48,477 - INFO - Finished checkout
+2026-01-20 00:37:48,493 - INFO - Order completed successfully
+2026-01-20 00:37:49,976 - INFO - ***** Starting test_cancel_checkout *****
+2026-01-20 00:37:55,317 - INFO - Navigated to BASE_URL
+2026-01-20 00:37:57,036 - INFO - Logged in with valid credentials
+2026-01-20 00:37:57,567 - INFO - Added first item to cart
+2026-01-20 00:37:58,116 - INFO - Opened cart
+2026-01-20 00:37:58,682 - INFO - Started checkout
+2026-01-20 00:38:00,279 - INFO - Entered user info
+2026-01-20 00:38:00,813 - INFO - Cancelled checkout
+2026-01-20 00:38:00,814 - INFO - Returned to cart page successfully
