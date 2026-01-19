@@ -32,3 +32,10 @@ class BasePage:
     def text_content(self, selector: str) -> str:
         return self.page.text_content(selector)
 
+
+    def go_back(self):
+        return self.page.go_back()
+
+    def go_forward(self):
+        return self.page.go_forward()
+

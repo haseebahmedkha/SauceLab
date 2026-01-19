@@ -1,0 +1,17 @@
+2026-01-19 23:43:22,485 - INFO - ***** Starting test_add_single_item_to_cart *****
+2026-01-19 23:43:28,902 - INFO - Navigated to BASE_URL
+2026-01-19 23:43:30,628 - INFO - Logged in with valid credentials
+2026-01-19 23:43:31,180 - INFO - Added first item to cart
+2026-01-19 23:43:31,190 - INFO - Cart count is correct
+2026-01-19 23:43:32,642 - INFO - ***** Starting test_multiple_item_to_cart *****
+2026-01-19 23:43:40,120 - INFO - Navigated to BASE_URL
+2026-01-19 23:43:41,753 - INFO - Logged in with valid credentials
+2026-01-19 23:43:43,447 - INFO - Added items to cart
+2026-01-19 23:43:43,460 - INFO - Cart count is correct
+2026-01-19 23:43:44,857 - INFO - ***** Starting test_remove_item_from_cart *****
+2026-01-19 23:43:55,019 - INFO - Navigated to BASE_URL
+2026-01-19 23:43:56,704 - INFO - Logged in with valid credentials
+2026-01-19 23:43:57,821 - INFO - Added items to cart
+2026-01-19 23:43:57,835 - INFO - Cart count is correct
+2026-01-19 23:43:58,374 - INFO - Removed first item from cart
+2026-01-19 23:43:58,399 - INFO - Cart count after removal is correct

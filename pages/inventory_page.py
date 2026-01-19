@@ -24,3 +24,17 @@ class InventoryPage(BasePage):
     #  Page Actions
     def add_first_item_to_cart(self):
         self.click(self.add_to_cart_button)
+
+    # -----------------------
+    def get_cart_count(self):
+        return self.page.locator(".shopping_cart_badge").inner_text()
+
+    def add_multiple_items_to_cart(self, count: int):
+        buttons = self.page.query_selector_all(self.add_to_cart_button)
+        for i in range(min(count, len(buttons))):
+            buttons[i].click()
+
+    def remove_first_item_from_cart(self):
+        remove_button = self.page.locator(".btn_inventory").filter(has_text="Remove").first
+        remove_button.click()
+

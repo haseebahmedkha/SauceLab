@@ -1,0 +1,7 @@
+2026-01-19 23:43:44,857 - INFO - ***** Starting test_remove_item_from_cart *****
+2026-01-19 23:43:55,019 - INFO - Navigated to BASE_URL
+2026-01-19 23:43:56,704 - INFO - Logged in with valid credentials
+2026-01-19 23:43:57,821 - INFO - Added items to cart
+2026-01-19 23:43:57,835 - INFO - Cart count is correct
+2026-01-19 23:43:58,374 - INFO - Removed first item from cart
+2026-01-19 23:43:58,399 - INFO - Cart count after removal is correct

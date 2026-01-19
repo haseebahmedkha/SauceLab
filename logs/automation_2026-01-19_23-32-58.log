@@ -1,0 +1,10 @@
+2026-01-19 23:32:58,432 - INFO - ***** Starting test_add_single_item_to_cart *****
+2026-01-19 23:33:14,116 - INFO - Navigated to BASE_URL
+2026-01-19 23:33:15,828 - INFO - Logged in with valid credentials
+2026-01-19 23:33:16,382 - INFO - Added first item to cart
+2026-01-19 23:33:16,410 - INFO - Cart count is correct
+2026-01-19 23:33:18,036 - INFO - ***** Starting test_multiple_item_to_cart *****
+2026-01-19 23:33:24,584 - INFO - Navigated to BASE_URL
+2026-01-19 23:33:26,249 - INFO - Logged in with valid credentials
+2026-01-19 23:33:27,915 - INFO - Added items to cart
+2026-01-19 23:33:27,942 - INFO - Cart count is correct
