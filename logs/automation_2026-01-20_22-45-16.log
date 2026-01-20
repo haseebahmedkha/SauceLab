@@ -1,0 +1,8 @@
+2026-01-20 22:45:16,853 - INFO - ***** Starting test_cart_edit_before_checkout *****
+2026-01-20 22:45:22,700 - INFO - ***** Navigated to BASE_URL *****
+2026-01-20 22:45:24,447 - INFO - ***** Logged in with valid credentials *****
+2026-01-20 22:45:26,231 - INFO - ***** Added first item to cart *****
+2026-01-20 22:45:26,830 - INFO - ***** Opened cart *****
+2026-01-20 22:45:26,872 - INFO - ***** Verified item in cart *****
+2026-01-20 22:45:27,475 - INFO - ***** Removed item from cart *****
+2026-01-20 22:45:27,490 - INFO - ***** Cart is empty after removing item *****

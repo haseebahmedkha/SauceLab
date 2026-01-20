@@ -10,6 +10,7 @@ class CheckoutPage(BasePage):
     success_message = ".complete-header"
     summary_info = ".summary_info"
     cancel_button = "#cancel"
+    error_message = "xpath=//h3[@data-test='error']"
 
 
     #  -----------------------
@@ -41,8 +42,8 @@ class CheckoutPage(BasePage):
 
     #  -----------------------
     #  Verification Methods
-    def is_error_displayed(self,xpath)-> str:
-        return self.page.locator(xpath).is_visible()
+    def is_error_displayed(self)-> str:
+        return self.page.locator(self.error_message).is_visible()
 
     #  -----------------------
     #  Verification Methods

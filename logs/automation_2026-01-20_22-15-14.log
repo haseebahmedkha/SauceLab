@@ -1,0 +1,11 @@
+2026-01-20 22:15:18,946 - INFO - Navigated to BASE_URL
+2026-01-20 22:15:20,661 - INFO - Logged in with valid credentials
+2026-01-20 22:15:21,228 - INFO - Added first item to cart
+2026-01-20 22:15:21,262 - INFO - Verified cart count is 1
+2026-01-20 22:15:21,823 - INFO - Opened cart
+2026-01-20 22:15:22,392 - INFO - Started checkout
+2026-01-20 22:15:24,073 - INFO - Entered user info
+2026-01-20 22:15:24,659 - INFO - Continued checkout
+2026-01-20 22:15:24,686 - INFO - Verified order summary is displayed
+2026-01-20 22:15:25,258 - INFO - Finished checkout
+2026-01-20 22:15:25,287 - INFO - Order completed successfully

@@ -7,6 +7,7 @@ class CartPage(BasePage):
     cart_icon = ".shopping_cart_link"
     checkout_button = "#checkout"
     inventory_item_name = ".inventory_item_name"
+    remove_button = "xpath=//button[@id='remove-sauce-labs-backpack']"
 
     # Actions
     def open_cart(self):
@@ -25,6 +26,14 @@ class CartPage(BasePage):
             if item.inner_text() == item_name:
                 return True
         return False
+
+    def remove_item_from_cart(self,item_name: str):
+        for item in self.page.query_selector_all(self.inventory_item_name):
+            if item.inner_text() == item_name:
+                remove_button = self.page.locator(self.remove_button).filter(has_text="Remove")
+                remove_button.click()
+
+
 
         
 

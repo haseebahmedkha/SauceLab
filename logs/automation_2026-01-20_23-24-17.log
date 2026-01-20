@@ -1,0 +1,23 @@
+2026-01-20 23:24:17,553 - INFO - ***** Starting test_checkout_error_recovery *****
+2026-01-20 23:24:24,308 - INFO - ***** Navigated to BASE_URL *****
+2026-01-20 23:24:26,055 - INFO - ***** Logged in with valid credentials *****
+2026-01-20 23:24:26,610 - INFO - ***** Added first item to cart *****
+2026-01-20 23:24:27,221 - INFO - ***** Opened cart *****
+2026-01-20 23:24:27,269 - INFO - ***** Verified item in cart *****
+2026-01-20 23:24:27,820 - INFO - ***** Started checkout *****
+2026-01-20 23:24:30,130 - INFO - ***** Entered incomplete user info to trigger error *****
+2026-01-20 23:24:31,787 - INFO - ***** Corrected user info *****
+2026-01-20 23:24:32,387 - INFO - ***** Continued checkout after error *****
+2026-01-20 23:24:32,980 - INFO - ***** Finished checkout *****
+2026-01-20 23:24:32,991 - INFO - ***** Order completed successfully after recovery *****
+2026-01-20 23:24:39,730 - INFO - Navigated to BASE_URL
+2026-01-20 23:24:41,523 - INFO - Logged in with valid credentials
+2026-01-20 23:24:42,067 - INFO - Added first item to cart
+2026-01-20 23:24:42,082 - INFO - Verified cart count is 1
+2026-01-20 23:24:42,642 - INFO - Opened cart
+2026-01-20 23:24:43,244 - INFO - Started checkout
+2026-01-20 23:24:44,925 - INFO - Entered user info
+2026-01-20 23:24:45,505 - INFO - Continued checkout
+2026-01-20 23:24:45,520 - INFO - Verified order summary is displayed
+2026-01-20 23:24:46,053 - INFO - Finished checkout
+2026-01-20 23:24:46,078 - INFO - Order completed successfully
