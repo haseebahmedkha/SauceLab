@@ -3,13 +3,16 @@ import time
 from pathlib import Path
 import pytest
 from playwright.sync_api import sync_playwright
+from pytest_playwright.pytest_playwright import browser_name
+
 
 # ================================
 # PyTest fixture to setup Playwright browser
 @pytest.fixture(scope="function")
-def setup(request):
+def setup(request,browser_name):
     playwright = sync_playwright().start()
-    browser = playwright.chromium.launch(headless=False, slow_mo=500)
+    browser_type = getattr(playwright,browser_name)
+    browser = browser_type.launch(headless=False, slow_mo=500)
     context = browser.new_context()
     context.tracing.start(screenshots=True, snapshots=True, sources=True)
     page = context.new_page()

@@ -1,0 +1,13 @@
+2026-01-21 00:50:58,081 - INFO - ***** Starting test_checkout_error_recovery *****
+2026-01-21 00:51:01,951 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 00:51:03,702 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 00:51:04,298 - INFO - ***** Added first item to cart *****
+2026-01-21 00:51:04,881 - INFO - ***** Opened cart *****
+2026-01-21 00:51:04,945 - INFO - ***** Verified item in cart *****
+2026-01-21 00:51:05,492 - INFO - ***** Started checkout *****
+2026-01-21 00:51:07,869 - INFO - ***** Entered incomplete user info to trigger error *****
+2026-01-21 00:51:09,492 - INFO - ***** Corrected user info *****
+2026-01-21 00:51:10,072 - INFO - ***** Continued checkout after error *****
+2026-01-21 00:51:10,658 - INFO - ***** Finished checkout *****
+2026-01-21 00:51:10,687 - INFO - ***** Order completed successfully after recovery *****
+2026-01-21 00:51:14,074 - INFO - ***** Starting test_checkout_error_recovery *****

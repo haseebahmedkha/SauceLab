@@ -50,8 +50,12 @@ class CheckoutPage(BasePage):
     def is_step_two_displayed(self) -> bool:
         return "checkout-step-two" in self.page.url
 
+    #  -----------------------
+    #  Verification Methods
     def is_order_summary_displayed(self) -> bool:
         return self.is_visible(self.summary_info)
 
+    #  -----------------------
+    #  Page Actions
     def cancel_checkout(self):
         self.page.locator(self.cancel_button).click()
