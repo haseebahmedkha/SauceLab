@@ -1,0 +1,394 @@
+2026-01-21 22:56:57,982 - INFO - ***** Starting test_cancel_checkout *****
+2026-01-21 22:57:13,682 - INFO - Navigated to BASE_URL
+2026-01-21 22:57:15,584 - INFO - Logged in with valid credentials
+2026-01-21 22:57:16,225 - INFO - Added first item to cart
+2026-01-21 22:57:16,815 - INFO - Opened cart
+2026-01-21 22:57:17,430 - INFO - Started checkout
+2026-01-21 22:57:19,161 - INFO - Entered user info
+2026-01-21 22:57:19,796 - INFO - Cancelled checkout
+2026-01-21 22:57:19,799 - INFO - Returned to cart page successfully
+2026-01-21 22:57:28,982 - INFO - Navigated to BASE_URL
+2026-01-21 22:57:30,732 - INFO - Logged in with valid credentials
+2026-01-21 22:57:31,314 - INFO - Added first item to cart
+2026-01-21 22:57:31,893 - INFO - Opened cart
+2026-01-21 22:57:32,464 - INFO - Started checkout
+2026-01-21 22:57:34,144 - INFO - Entered user info
+2026-01-21 22:57:34,725 - INFO - Continued checkout
+2026-01-21 22:57:35,329 - INFO - Finished checkout
+2026-01-21 22:57:35,373 - INFO - Order completed successfully
+2026-01-21 22:57:37,298 - INFO - ***** Starting test_checkout_with_invalid_zip_letter *****
+2026-01-21 22:57:52,224 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 22:57:54,124 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 22:57:54,720 - INFO - ***** Added first item to cart *****
+2026-01-21 22:57:55,323 - INFO - ***** Opened cart *****
+2026-01-21 22:57:55,453 - INFO - ***** Verified item in cart *****
+2026-01-21 22:57:56,041 - INFO - ***** Started checkout *****
+2026-01-21 22:57:57,736 - INFO - ***** Entered user info with invalid postal code *****
+2026-01-21 22:57:58,334 - INFO - ***** Continued checkout *****
+2026-01-21 22:58:00,441 - INFO - ***** Starting test_checkout_with_short_zip *****
+2026-01-21 22:58:08,262 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 22:58:10,258 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 22:58:10,888 - INFO - ***** Added first item to cart *****
+2026-01-21 22:58:11,471 - INFO - ***** Opened cart *****
+2026-01-21 22:58:11,544 - INFO - ***** Verified item in cart *****
+2026-01-21 22:58:12,111 - INFO - ***** Started checkout *****
+2026-01-21 22:58:13,769 - INFO - ***** Entered user info with short postal code *****
+2026-01-21 22:58:14,435 - INFO - ***** Continued checkout *****
+2026-01-21 22:58:16,938 - INFO - ***** Starting test_checkout_with_single_char_firstname *****
+2026-01-21 22:58:21,542 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 22:58:25,073 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 22:58:25,792 - INFO - ***** Added first item to cart *****
+2026-01-21 22:58:26,360 - INFO - ***** Opened cart *****
+2026-01-21 22:58:26,429 - INFO - ***** Verified item in cart *****
+2026-01-21 22:58:27,007 - INFO - ***** Started checkout *****
+2026-01-21 22:58:28,786 - INFO - ***** Entered user info with single character first name *****
+2026-01-21 22:58:29,428 - INFO - ***** Continued checkout *****
+2026-01-21 22:58:29,429 - INFO - ***** Successfully proceeded to overview page with single character first name *****
+2026-01-21 22:58:35,928 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 22:58:45,214 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 22:58:47,282 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 22:58:47,934 - INFO - ***** Added first item to cart *****
+2026-01-21 22:58:48,564 - INFO - ***** Opened cart *****
+2026-01-21 22:58:49,248 - INFO - ***** Started checkout *****
+2026-01-21 22:58:50,895 - INFO - ***** Entered user info *****
+2026-01-21 22:58:51,596 - INFO - ***** Continued checkout *****
+2026-01-21 22:58:51,638 - INFO - ***** Verified error message *****
+2026-01-21 22:58:51,641 - INFO - ***** test_checkout_with_invalid_data_error_message completed *****
+2026-01-21 22:59:07,560 - INFO - Navigated to BASE_URL
+2026-01-21 22:59:09,377 - INFO - Logged in with valid credentials
+2026-01-21 22:59:09,958 - INFO - Added first item to cart
+2026-01-21 22:59:10,505 - INFO - Opened cart
+2026-01-21 22:59:10,558 - INFO - Verified item in cart
+2026-01-21 22:59:11,108 - INFO - Started checkout
+2026-01-21 22:59:12,707 - INFO - Entered user info
+2026-01-21 22:59:13,273 - INFO - Continued checkout
+2026-01-21 22:59:13,838 - INFO - Finished checkout
+2026-01-21 22:59:13,849 - INFO - Order completed successfully
+2026-01-21 23:01:30,909 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:01:37,607 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:02:12,479 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:02:18,393 - INFO - ***** Login attempted *****
+2026-01-21 23:02:19,596 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:02:24,262 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:02:37,591 - INFO - ***** Login attempted *****
+2026-01-21 23:02:38,958 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:02:46,661 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:02:57,857 - INFO - ***** Login attempted *****
+2026-01-21 23:03:03,550 - INFO - ***** Starting test_cart_edit_before_checkout *****
+2026-01-21 23:03:08,297 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:03:10,323 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:03:14,184 - INFO - ***** Added first item to cart *****
+2026-01-21 23:03:14,952 - INFO - ***** Opened cart *****
+2026-01-21 23:03:15,015 - INFO - ***** Verified item in cart *****
+2026-01-21 23:03:15,861 - INFO - ***** Removed item from cart *****
+2026-01-21 23:03:15,877 - INFO - ***** Cart is empty after removing item *****
+2026-01-21 23:03:17,379 - INFO - ***** Starting test_checkout_error_recovery *****
+2026-01-21 23:03:26,972 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:03:28,905 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:03:29,625 - INFO - ***** Added first item to cart *****
+2026-01-21 23:03:30,353 - INFO - ***** Opened cart *****
+2026-01-21 23:03:30,429 - INFO - ***** Verified item in cart *****
+2026-01-21 23:03:31,221 - INFO - ***** Started checkout *****
+2026-01-21 23:03:33,624 - INFO - ***** Entered incomplete user info to trigger error *****
+2026-01-21 23:03:35,298 - INFO - ***** Corrected user info *****
+2026-01-21 23:03:36,063 - INFO - ***** Continued checkout after error *****
+2026-01-21 23:03:36,810 - INFO - ***** Finished checkout *****
+2026-01-21 23:03:36,827 - INFO - ***** Order completed successfully after recovery *****
+2026-01-21 23:03:48,125 - INFO - Navigated to BASE_URL
+2026-01-21 23:03:50,079 - INFO - Logged in with valid credentials
+2026-01-21 23:03:50,806 - INFO - Added first item to cart
+2026-01-21 23:03:50,829 - INFO - Verified cart count is 1
+2026-01-21 23:03:51,556 - INFO - Opened cart
+2026-01-21 23:03:52,335 - INFO - Started checkout
+2026-01-21 23:03:53,992 - INFO - Entered user info
+2026-01-21 23:03:54,726 - INFO - Continued checkout
+2026-01-21 23:03:54,753 - INFO - Verified order summary is displayed
+2026-01-21 23:03:55,484 - INFO - Finished checkout
+2026-01-21 23:03:55,504 - INFO - Order completed successfully
+2026-01-21 23:03:56,853 - INFO - ***** Starting test_add_single_item_to_cart *****
+2026-01-21 23:04:00,750 - INFO - Navigated to BASE_URL
+2026-01-21 23:04:02,631 - INFO - Logged in with valid credentials
+2026-01-21 23:04:03,365 - INFO - Added first item to cart
+2026-01-21 23:04:03,389 - INFO - Cart count is correct
+2026-01-21 23:04:04,748 - INFO - ***** Starting test_multiple_item_to_cart *****
+2026-01-21 23:04:06,350 - INFO - Navigated to BASE_URL
+2026-01-21 23:04:08,360 - INFO - Logged in with valid credentials
+2026-01-21 23:04:10,745 - INFO - Added items to cart
+2026-01-21 23:04:10,774 - INFO - Cart count is correct
+2026-01-21 23:04:12,177 - INFO - ***** Starting test_remove_item_from_cart *****
+2026-01-21 23:04:18,000 - INFO - Navigated to BASE_URL
+2026-01-21 23:04:19,945 - INFO - Logged in with valid credentials
+2026-01-21 23:04:21,516 - INFO - Added items to cart
+2026-01-21 23:04:21,538 - INFO - Cart count is correct
+2026-01-21 23:04:22,304 - INFO - Removed first item from cart
+2026-01-21 23:04:22,321 - INFO - Cart count after removal is correct
+2026-01-21 23:04:23,611 - INFO - ***** Starting test_complete_checkout_flow *****
+2026-01-21 23:04:28,753 - INFO - Navigated to BASE_URL
+2026-01-21 23:04:30,809 - INFO - Logged in with valid credentials
+2026-01-21 23:04:31,549 - INFO - Added first item to cart
+2026-01-21 23:04:32,369 - INFO - Opened cart
+2026-01-21 23:04:33,115 - INFO - Started checkout
+2026-01-21 23:04:34,765 - INFO - Entered user info
+2026-01-21 23:04:35,554 - INFO - Continued checkout
+2026-01-21 23:04:36,250 - INFO - Finished checkout
+2026-01-21 23:04:36,273 - INFO - Order completed successfully
+2026-01-21 23:04:37,692 - INFO - ***** Starting test_cancel_checkout *****
+2026-01-21 23:04:40,497 - INFO - Navigated to BASE_URL
+2026-01-21 23:04:42,533 - INFO - Logged in with valid credentials
+2026-01-21 23:04:43,398 - INFO - Added first item to cart
+2026-01-21 23:04:44,142 - INFO - Opened cart
+2026-01-21 23:04:44,906 - INFO - Started checkout
+2026-01-21 23:04:46,573 - INFO - Entered user info
+2026-01-21 23:04:47,321 - INFO - Cancelled checkout
+2026-01-21 23:04:47,324 - INFO - Returned to cart page successfully
+2026-01-21 23:05:04,010 - INFO - Navigated to BASE_URL
+2026-01-21 23:05:06,178 - INFO - Logged in with valid credentials
+2026-01-21 23:05:07,000 - INFO - Added first item to cart
+2026-01-21 23:05:07,757 - INFO - Opened cart
+2026-01-21 23:05:08,638 - INFO - Started checkout
+2026-01-21 23:05:10,437 - INFO - Entered user info
+2026-01-21 23:05:11,295 - INFO - Continued checkout
+2026-01-21 23:05:12,196 - INFO - Finished checkout
+2026-01-21 23:05:12,218 - INFO - Order completed successfully
+2026-01-21 23:05:13,871 - INFO - ***** Starting test_checkout_with_invalid_zip_letter *****
+2026-01-21 23:05:23,599 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:05:25,555 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:05:26,309 - INFO - ***** Added first item to cart *****
+2026-01-21 23:05:27,089 - INFO - ***** Opened cart *****
+2026-01-21 23:05:27,182 - INFO - ***** Verified item in cart *****
+2026-01-21 23:05:27,943 - INFO - ***** Started checkout *****
+2026-01-21 23:05:29,626 - INFO - ***** Entered user info with invalid postal code *****
+2026-01-21 23:05:30,386 - INFO - ***** Continued checkout *****
+2026-01-21 23:05:32,478 - INFO - ***** Starting test_checkout_with_short_zip *****
+2026-01-21 23:05:43,281 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:05:45,260 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:05:46,060 - INFO - ***** Added first item to cart *****
+2026-01-21 23:05:46,810 - INFO - ***** Opened cart *****
+2026-01-21 23:05:46,885 - INFO - ***** Verified item in cart *****
+2026-01-21 23:05:47,620 - INFO - ***** Started checkout *****
+2026-01-21 23:05:49,322 - INFO - ***** Entered user info with short postal code *****
+2026-01-21 23:05:50,040 - INFO - ***** Continued checkout *****
+2026-01-21 23:05:51,660 - INFO - ***** Starting test_checkout_with_single_char_firstname *****
+2026-01-21 23:06:02,188 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:06:04,125 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:06:04,841 - INFO - ***** Added first item to cart *****
+2026-01-21 23:06:05,623 - INFO - ***** Opened cart *****
+2026-01-21 23:06:05,733 - INFO - ***** Verified item in cart *****
+2026-01-21 23:06:06,523 - INFO - ***** Started checkout *****
+2026-01-21 23:06:08,214 - INFO - ***** Entered user info with single character first name *****
+2026-01-21 23:06:08,965 - INFO - ***** Continued checkout *****
+2026-01-21 23:06:08,968 - INFO - ***** Successfully proceeded to overview page with single character first name *****
+2026-01-21 23:06:12,976 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:07:18,897 - INFO - Navigated to BASE_URL
+2026-01-21 23:07:55,551 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:08:02,322 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:08:04,207 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:08:04,841 - INFO - ***** Added first item to cart *****
+2026-01-21 23:08:05,463 - INFO - ***** Opened cart *****
+2026-01-21 23:08:05,550 - INFO - ***** Verified item in cart *****
+2026-01-21 23:08:06,182 - INFO - ***** Started checkout *****
+2026-01-21 23:08:07,851 - INFO - ***** Entered user info *****
+2026-01-21 23:08:18,632 - INFO - ***** Continued checkout *****
+2026-01-21 23:08:52,350 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:09:37,870 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:10:30,386 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:14:32,379 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:14:41,352 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:14:43,250 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:14:43,897 - INFO - ***** Added first item to cart *****
+2026-01-21 23:14:44,600 - INFO - ***** Opened cart *****
+2026-01-21 23:14:45,202 - INFO - ***** Started checkout *****
+2026-01-21 23:14:46,872 - INFO - ***** Entered user info *****
+2026-01-21 23:14:47,493 - INFO - ***** Continued checkout *****
+2026-01-21 23:14:47,510 - INFO - ***** Verified error message *****
+2026-01-21 23:14:47,511 - INFO - ***** test_checkout_with_invalid_data_error_message completed *****
+2026-01-21 23:14:50,924 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:14:58,962 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:15:00,823 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:15:01,397 - INFO - ***** Added first item to cart *****
+2026-01-21 23:15:01,996 - INFO - ***** Opened cart *****
+2026-01-21 23:15:02,081 - INFO - ***** Verified item in cart *****
+2026-01-21 23:15:02,645 - INFO - ***** Started checkout *****
+2026-01-21 23:15:04,354 - INFO - ***** Entered user info *****
+2026-01-21 23:15:04,945 - INFO - ***** Continued checkout *****
+2026-01-21 23:15:05,544 - INFO - ***** Finished checkout *****
+2026-01-21 23:15:05,569 - INFO - ***** Order completed successfully *****
+2026-01-21 23:15:10,758 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:15:31,293 - INFO - ***** Login attempted *****
+2026-01-21 23:15:37,585 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:15:45,118 - INFO - ***** Login attempted *****
+2026-01-21 23:15:52,715 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:16:01,247 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:16:03,127 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:16:03,761 - INFO - ***** Added first item to cart *****
+2026-01-21 23:16:04,411 - INFO - ***** Opened cart *****
+2026-01-21 23:16:05,029 - INFO - ***** Started checkout *****
+2026-01-21 23:16:06,724 - INFO - ***** Entered user info *****
+2026-01-21 23:16:07,423 - INFO - ***** Continued checkout *****
+2026-01-21 23:16:10,549 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:16:19,693 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:16:21,492 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:16:22,079 - INFO - ***** Added first item to cart *****
+2026-01-21 23:16:22,692 - INFO - ***** Opened cart *****
+2026-01-21 23:16:22,777 - INFO - ***** Verified item in cart *****
+2026-01-21 23:16:23,339 - INFO - ***** Started checkout *****
+2026-01-21 23:16:25,078 - INFO - ***** Entered user info *****
+2026-01-21 23:16:25,691 - INFO - ***** Continued checkout *****
+2026-01-21 23:16:26,305 - INFO - ***** Finished checkout *****
+2026-01-21 23:16:26,349 - INFO - ***** Order completed successfully *****
+2026-01-21 23:16:28,720 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:16:38,894 - INFO - ***** Login attempted *****
+2026-01-21 23:16:40,095 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:16:44,650 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:16:52,865 - INFO - ***** Login attempted *****
+2026-01-21 23:16:57,643 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:17:06,197 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:17:07,983 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:17:08,569 - INFO - ***** Added first item to cart *****
+2026-01-21 23:17:09,148 - INFO - ***** Opened cart *****
+2026-01-21 23:17:09,742 - INFO - ***** Started checkout *****
+2026-01-21 23:17:11,441 - INFO - ***** Entered user info *****
+2026-01-21 23:17:12,129 - INFO - ***** Continued checkout *****
+2026-01-21 23:17:12,183 - INFO - ***** Verified error message *****
+2026-01-21 23:17:12,187 - INFO - ***** test_checkout_with_invalid_data_error_message completed *****
+2026-01-21 23:17:14,510 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:17:21,162 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:17:22,903 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:17:23,528 - INFO - ***** Added first item to cart *****
+2026-01-21 23:17:24,126 - INFO - ***** Opened cart *****
+2026-01-21 23:17:24,184 - INFO - ***** Verified item in cart *****
+2026-01-21 23:17:24,762 - INFO - ***** Started checkout *****
+2026-01-21 23:17:26,477 - INFO - ***** Entered user info *****
+2026-01-21 23:17:27,094 - INFO - ***** Continued checkout *****
+2026-01-21 23:17:27,693 - INFO - ***** Finished checkout *****
+2026-01-21 23:17:27,745 - INFO - ***** Order completed successfully *****
+2026-01-21 23:17:29,965 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:17:43,582 - INFO - ***** Login attempted *****
+2026-01-21 23:17:44,759 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:17:47,271 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:17:56,365 - INFO - ***** Login attempted *****
+2026-01-21 23:17:58,663 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:18:03,068 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:18:04,834 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:18:05,436 - INFO - ***** Added first item to cart *****
+2026-01-21 23:18:06,016 - INFO - ***** Opened cart *****
+2026-01-21 23:18:06,583 - INFO - ***** Started checkout *****
+2026-01-21 23:18:08,296 - INFO - ***** Entered user info *****
+2026-01-21 23:18:08,900 - INFO - ***** Continued checkout *****
+2026-01-21 23:18:08,946 - INFO - ***** Verified error message *****
+2026-01-21 23:18:08,950 - INFO - ***** test_checkout_with_invalid_data_error_message completed *****
+2026-01-21 23:18:11,190 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:18:19,404 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:18:21,462 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:18:22,236 - INFO - ***** Added first item to cart *****
+2026-01-21 23:18:23,022 - INFO - ***** Opened cart *****
+2026-01-21 23:18:23,092 - INFO - ***** Verified item in cart *****
+2026-01-21 23:18:23,815 - INFO - ***** Started checkout *****
+2026-01-21 23:18:25,506 - INFO - ***** Entered user info *****
+2026-01-21 23:18:26,279 - INFO - ***** Continued checkout *****
+2026-01-21 23:18:27,027 - INFO - ***** Finished checkout *****
+2026-01-21 23:18:27,067 - INFO - ***** Order completed successfully *****
+2026-01-21 23:18:29,018 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:18:42,794 - INFO - ***** Login attempted *****
+2026-01-21 23:18:43,965 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:18:46,318 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:18:54,432 - INFO - ***** Login attempted *****
+2026-01-21 23:18:56,655 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:19:03,344 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:19:05,200 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:19:05,769 - INFO - ***** Added first item to cart *****
+2026-01-21 23:19:06,317 - INFO - ***** Opened cart *****
+2026-01-21 23:19:06,907 - INFO - ***** Started checkout *****
+2026-01-21 23:19:08,618 - INFO - ***** Entered user info *****
+2026-01-21 23:19:09,268 - INFO - ***** Continued checkout *****
+2026-01-21 23:19:09,309 - INFO - ***** Verified error message *****
+2026-01-21 23:19:09,314 - INFO - ***** test_checkout_with_invalid_data_error_message completed *****
+2026-01-21 23:19:11,192 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:19:39,528 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:19:41,467 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:19:42,211 - INFO - ***** Added first item to cart *****
+2026-01-21 23:19:42,996 - INFO - ***** Opened cart *****
+2026-01-21 23:19:43,086 - INFO - ***** Verified item in cart *****
+2026-01-21 23:19:43,812 - INFO - ***** Started checkout *****
+2026-01-21 23:19:45,491 - INFO - ***** Entered user info *****
+2026-01-21 23:19:46,214 - INFO - ***** Continued checkout *****
+2026-01-21 23:19:46,944 - INFO - ***** Finished checkout *****
+2026-01-21 23:19:46,963 - INFO - ***** Order completed successfully *****
+2026-01-21 23:19:48,899 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:20:00,548 - INFO - ***** Login attempted *****
+2026-01-21 23:20:03,015 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:20:18,493 - INFO - ***** Login attempted *****
+2026-01-21 23:20:21,140 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:20:28,482 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:20:30,265 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:20:30,850 - INFO - ***** Added first item to cart *****
+2026-01-21 23:20:31,427 - INFO - ***** Opened cart *****
+2026-01-21 23:20:32,011 - INFO - ***** Started checkout *****
+2026-01-21 23:20:33,748 - INFO - ***** Entered user info *****
+2026-01-21 23:20:34,428 - INFO - ***** Continued checkout *****
+2026-01-21 23:20:34,485 - INFO - ***** Verified error message *****
+2026-01-21 23:20:34,493 - INFO - ***** test_checkout_with_invalid_data_error_message completed *****
+2026-01-21 23:20:36,548 - INFO - ***** Starting test_checkout_with_multiple_user *****
+2026-01-21 23:20:41,977 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:20:43,927 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:20:44,690 - INFO - ***** Added first item to cart *****
+2026-01-21 23:20:45,455 - INFO - ***** Opened cart *****
+2026-01-21 23:20:45,526 - INFO - ***** Verified item in cart *****
+2026-01-21 23:20:46,299 - INFO - ***** Started checkout *****
+2026-01-21 23:20:47,982 - INFO - ***** Entered user info *****
+2026-01-21 23:20:48,719 - INFO - ***** Continued checkout *****
+2026-01-21 23:20:49,492 - INFO - ***** Finished checkout *****
+2026-01-21 23:20:49,522 - INFO - ***** Order completed successfully *****
+2026-01-21 23:20:51,170 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:21:02,582 - INFO - ***** Login attempted *****
+2026-01-21 23:21:04,129 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:21:06,296 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:21:15,219 - INFO - ***** Login attempted *****
+2026-01-21 23:21:17,551 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:21:41,895 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:21:43,790 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:21:44,414 - INFO - ***** Added first item to cart *****
+2026-01-21 23:21:45,054 - INFO - ***** Opened cart *****
+2026-01-21 23:21:45,669 - INFO - ***** Started checkout *****
+2026-01-21 23:21:47,356 - INFO - ***** Entered user info *****
+2026-01-21 23:21:48,014 - INFO - ***** Continued checkout *****
+2026-01-21 23:21:50,290 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:22:04,825 - INFO - ***** Login attempted *****
+2026-01-21 23:22:06,330 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:22:08,033 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:22:19,766 - INFO - ***** Login attempted *****
+2026-01-21 23:22:22,005 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:22:26,558 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:22:28,509 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:22:29,290 - INFO - ***** Added first item to cart *****
+2026-01-21 23:22:30,107 - INFO - ***** Opened cart *****
+2026-01-21 23:22:30,961 - INFO - ***** Started checkout *****
+2026-01-21 23:22:32,753 - INFO - ***** Entered user info *****
+2026-01-21 23:22:33,552 - INFO - ***** Continued checkout *****
+2026-01-21 23:22:33,592 - INFO - ***** Verified error message *****
+2026-01-21 23:22:33,596 - INFO - ***** test_checkout_with_invalid_data_error_message completed *****
+2026-01-21 23:22:35,179 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:22:48,317 - INFO - ***** Login attempted *****
+2026-01-21 23:22:49,799 - INFO - ***** test_valid_login completed *****
+2026-01-21 23:22:51,285 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:23:10,627 - INFO - ***** Login attempted *****
+2026-01-21 23:23:12,324 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:23:50,568 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:24:03,749 - INFO - ***** Login attempted *****
+2026-01-21 23:24:05,470 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:24:38,985 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:25:29,796 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:25:37,584 - INFO - ***** Login attempted *****
+2026-01-21 23:25:40,519 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:26:24,183 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:26:30,980 - INFO - ***** Login attempted *****
+2026-01-21 23:27:00,196 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:27:17,572 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:27:19,502 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:27:20,283 - INFO - ***** Added first item to cart *****
+2026-01-21 23:27:21,081 - INFO - ***** Opened cart *****
+2026-01-21 23:27:21,889 - INFO - ***** Started checkout *****
+2026-01-21 23:27:23,547 - INFO - ***** Entered user info *****
+2026-01-21 23:27:24,269 - INFO - ***** Continued checkout *****
+2026-01-21 23:27:25,960 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:27:50,333 - INFO - ***** Login attempted *****

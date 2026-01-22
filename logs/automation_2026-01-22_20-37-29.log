@@ -1,0 +1,3 @@
+2026-01-22 20:37:29,404 - INFO - ***** Starting test_backend_is_alive *****
+2026-01-22 20:37:30,789 - INFO - Received response with status code: 200
+2026-01-22 20:37:30,789 - INFO - ***** Backend is alive and responding with status code 200 *****

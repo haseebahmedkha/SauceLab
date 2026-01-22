@@ -1,0 +1,16 @@
+2026-01-21 23:24:38,985 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:25:29,796 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:25:37,584 - INFO - ***** Login attempted *****
+2026-01-21 23:25:40,519 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:26:24,183 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:26:30,980 - INFO - ***** Login attempted *****
+2026-01-21 23:27:00,196 - INFO - ***** Starting test_checkout_with_invalid_data_error_message *****
+2026-01-21 23:27:17,572 - INFO - ***** Navigated to BASE_URL *****
+2026-01-21 23:27:19,502 - INFO - ***** Logged in with valid credentials *****
+2026-01-21 23:27:20,283 - INFO - ***** Added first item to cart *****
+2026-01-21 23:27:21,081 - INFO - ***** Opened cart *****
+2026-01-21 23:27:21,889 - INFO - ***** Started checkout *****
+2026-01-21 23:27:23,547 - INFO - ***** Entered user info *****
+2026-01-21 23:27:24,269 - INFO - ***** Continued checkout *****
+2026-01-21 23:27:25,960 - INFO - ***** Starting test_valid_login *****
+2026-01-21 23:27:50,333 - INFO - ***** Login attempted *****

@@ -1,0 +1,4 @@
+2026-01-22 20:48:36,354 - INFO - Navigated to BASE_URL
+2026-01-22 20:48:38,338 - INFO - Logged in with valid credentials
+2026-01-22 20:48:39,752 - INFO - Performed backend GET request to BASE_URL
+2026-01-22 20:48:39,752 - INFO - Backend GET request successful with status code 200
